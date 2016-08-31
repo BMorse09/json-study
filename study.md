@@ -38,7 +38,26 @@ As it makes sense to you please write the following in JSON format:
 -   Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
 
 ```json
-<!-- your answer here -->
+  var jasonsThings = {
+      "roommate" : {
+          "name" : "Dave",
+          "name" : "Miller"
+        }
+        "pet" : {
+          "species" : "cat",
+          "name" : "MrKitty"
+        }
+        "loves" : {
+          "team" : "Red Sox",
+          "team" : "Patriots",
+          "team" : "Bruins"
+        }
+        "formerAddress" ; {
+          "address" : "123 Fake street",
+          "address" : "2 Muchinfo Road"
+        }
+      }
+
 ```
 
 I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
@@ -46,7 +65,37 @@ other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
 already wrote and include the information about Dave's fish.
 
 ```json
-<!-- your answer here -->
+var jasonsThings = {
+    "roommate" : {
+        "name" : "Dave",
+        "name" : "Miller"
+      }
+      "pet" : {
+        "species" : "cat",
+        "name" : "MrKitty"
+      }
+      "loves" : {
+        "team" : "Red Sox",
+        "team" : "Patriots",
+        "team" : "Bruins"
+      }
+      "formerAddress" : {
+        "address" : "123 Fake street",
+        "address" : "2 Muchinfo Road"
+      }
+    }
+
+var davesPets = {
+    "bob" {
+      "species" : "fish",
+      "color": "red"
+    },
+    "mrMagicNibbles" {
+      "species" : "fish",
+      "color" : "yellow",
+    }
+}
+
 ```
 
 ## JSON Methods
@@ -54,7 +103,8 @@ already wrote and include the information about Dave's fish.
 Using the JSON your wrote above, can you write a method on the JSON?
 
 ```json
-<!-- your answer here -->
+You cannot write methods on JSON, because it is merely a data exchange format
+that only represents data.
 ```
 
 ## JSON Comments
@@ -62,5 +112,5 @@ Using the JSON your wrote above, can you write a method on the JSON?
 Using the JSON your wrote above, can you write a comment in the JSON?
 
 ```json
-<!-- your answer here -->
+One cannot comment in JSON because JSON is just a string
 ```
